@@ -1,7 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
 }
 body {
     background-color: #eee;
@@ -25,7 +25,7 @@ body {
 .nav-links a{
     text-decoration: none;
 }
-#title{
+.title{
     text-align: center;
     padding-bottom: 30px;
 }
@@ -70,3 +70,14 @@ a {
     color: black;
     text-decoration: none;
 }
+
+.myicons {
+    display:flex;
+}
+
+@media only screen and (max-width: 540px) {
+    .last-card {
+display: block;    
+margin: 10px;
+}
+  }
